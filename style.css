@@ -1,0 +1,254 @@
+html{
+    background-color: white;
+}
+.image{ 
+    float: left;
+    display: block;
+    height: 120px; 
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 20px;
+ 
+}
+.myname{   
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 5px solid white;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+.sub{
+    border: 4px solid white;
+    font-size: medium;
+    font-family: sans-serif; 
+    margin-left: 150px; 
+    margin-top: -20px;
+    color: #353434;
+}
+.icons{
+    font-size: 25px;/*for icon*/
+    border: 5px;
+    margin-left: 900px;  
+    margin-top: -80px;
+}
+.m{
+ border: 5px;
+margin-left: 930px;
+margin-top: -40px;
+}
+.location{
+    font-size: 25px;
+    border: 5px;
+    margin-left: 902px;
+}
+.loc{
+    border: 5px;
+    margin-left: 930px;
+    margin-top: -40px;
+
+}
+.telephone{
+    font-size: 25px;
+    border: 5px;
+    margin-left: 899px;
+}
+.tel{
+    border: 5px;
+    margin-left: 930px;
+    margin-top: -40px;
+}
+.profile{
+    box-sizing: content-box;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid ;
+    border-left-color:white ; 
+    border-right-color:white ; 
+    font-weight: 600;
+}
+.edu{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #150f3f;
+}
+
+.edu_det{ 
+    border: 3px solid black;
+    margin-right: 1250px;
+    padding-left: 5px; 
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #150f3f;
+}
+.skill{
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #150f3f;
+margin-left: 1000px;
+margin-top:-240px;
+}
+
+.skills_det{
+    border: 3px solid black;
+    border: 5px 2px 5px 2px;
+    margin-left: 1000px;
+    margin-right: 180px;
+    padding-left: 5px;
+    padding-right:-50px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #150f3f; 
+
+}
+.interest{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #150f3f;
+    margin-top: 100px;
+
+}
+
+.int_det{
+
+
+    border: 3px solid black; 
+    margin-right: 1350px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #150f3f; 
+    padding-left: 5px;
+
+}
+
+.pro{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #150f3f;
+
+}
+
+.p_det{
+
+    border: 3px solid black;
+    margin-right: 1250px;
+    padding-left: 5px; 
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #150f3f;
+}
+.lan{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #150f3f;
+margin-left: 1000px;
+margin-top:-370px;
+
+}
+
+.lan_det{
+    border: 3px solid black; 
+    margin-left: 1000px;
+    margin-right: 180px;
+    padding-left: 5px;
+    padding-right:-50px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #150f3f; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:430px) and (max-width:932px)
+{
+  
+    .myname{   
+        font-size: 31px;
+        font-family: sans-serif;
+        border: 5px solid white;
+        margin-left: 323px;
+        margin-top: -47px;
+    }
+ 
+    .sub{
+        border: 4px solid white;
+        font-size: 25px;
+        font-family: sans-serif; 
+        margin-left: 385px; 
+        margin-top: -20px;
+        color: #353434;
+    }
+    .image{ 
+        float: left;
+        display: block;
+        height: 200px; 
+        width: 200px;
+        border-radius: 50%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-top: 43px;
+     
+    }
+}

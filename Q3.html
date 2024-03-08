@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Application Form</title>  
+<link href="Q3.css" rel="stylesheet">
+</head> 
+<body> 
+<div class="container">
+  <h2>Job Application Form</h2>
+  <form id="jobApplicationForm">
+    <!-- Personal Information -->
+    <h3>Personal Information</h3>
+    <input type="text" name="firstName" placeholder="First Name"  >
+    <input type="text" name="lastName" placeholder="Last Name"  >
+    <input type="tel" name="phoneNumber" placeholder="Phone Number"  >
+    <input type="email" name="email" placeholder="Email Address" >
+    <input type="text" name="street" placeholder="Street Address"  >
+    <input type="text" name="city" placeholder="City"  >
+    <input type="text" name="state" placeholder="State"  >
+    <input type="text" name="zipCode" placeholder="ZIP Code" >
+    
+    <!-- Resume and Cover Letter -->
+    <h3>Resume and Cover Letter</h3>
+    <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+    <textarea name="coverLetter" rows="4" placeholder="Enter your cover letter here"></textarea>
+    
+    <!-- Education -->
+    <h3>Education</h3>
+    <input type="text" name="educationLevel" placeholder="Highest Level of Education Attained" required>
+    <input type="text" name="schoolName" placeholder="Name of School/University" required>
+    <input type="text" name="major" placeholder="Major/Area of Study" required>
+    <input type="text" name="graduationYear" placeholder="Graduation Year" required>
+    
+    <!-- Employment History -->
+    <h3>Employment History</h3>
+    <input type="text" name="jobTitle" placeholder="Previous Job Titles" required>
+    <input type="text" name="companyName" placeholder="Company Names" required>
+    <input type="date" name="employmentDates" placeholder="Employment Dates" required>
+    <textarea name="jobResponsibilities" rows="4" placeholder="Enter your job responsibilities here"></textarea>
+    
+    <!-- Skills -->
+    <h3>Skills</h3>
+    <input type="text" name="skills" placeholder="Relevant Skills" required>
+    <input type="text" name="certifications" placeholder="Certifications">
+    
+    <!-- Availability -->
+    <h3>Availability</h3>
+    <input type="date" name="startDate" placeholder="Start Date" required>
+    <input type="text" name="workSchedule" placeholder="Preferred Work Schedule" required>
+    <label><input type="checkbox" name="relocate"> Willingness to Relocate</label>
+    
+    <!-- References -->
+    <h3>References</h3>
+    <input type="text" name="referenceName" placeholder="Reference Name">
+    <input type="tel" name="referenceContact" placeholder="Reference Contact Information">
+    <input type="text" name="relationship" placeholder="Relationship to Applicant">
+    
+    <!-- Additional Questions -->
+    <h3>Additional Questions</h3>
+    <textarea name="whyWorkHere" rows="4" placeholder="Why do you want to work for this company?" required></textarea> 
+    <h3>Consent and Agreement</h3>
+    <label><input type="checkbox" name="agreement" required> I agree to the terms and conditions</label>
+    <label><input type="checkbox" name="privacyPolicy" required> I acknowledge the Privacy Policy</label> 
+    <button type="submit">Submit Application</button>
+  </form>
+</div> 
+<script src="Q3.js"></script>
+</body>
+</html>
